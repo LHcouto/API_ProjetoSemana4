@@ -7,7 +7,7 @@ const swaggerDocument = require('../../swagger.json');
 const {
   validId,
   validObjectBody,
-  validObjectBodyCarrinho
+  validObjectBodyCarrinho,
 } = require('../middlewares/paleta.middleware');
 
 route.use('/api-docs', swaggerUi.serve);
@@ -35,7 +35,6 @@ route.delete(
   validId,
   controllerPaletas.deletePaletaController,
 );
-
 
 route.get('/all-carrinho', controllerCarrinho.findAllCarrinhoController);
 route.post(

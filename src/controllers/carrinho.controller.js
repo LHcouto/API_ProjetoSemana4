@@ -16,7 +16,6 @@ const createManyCarrinhoController = async (req, res) => {
   res.status(201).send(newCarrinho);
 };
 
-
 const deleteAllCarrinhoController = async (req, res) => {
   await carrinhoService.deleteAllCarrinhoService();
   res.send({ message: 'Carrinho finalizado com sucesso!' });
