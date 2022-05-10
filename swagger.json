@@ -17,11 +17,8 @@
     {
       "url": "http://localhost:3000/paletas",
       "description": "API de teste"
-    },
-    {
-      "url": "http://api-elgeladon.herokuapp.com.br/paletas",
-      "description": "API de produção"
     }
+    
   ],
   "paths": {
     "/all-paletas": {
