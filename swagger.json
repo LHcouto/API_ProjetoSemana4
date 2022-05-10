@@ -13,7 +13,8 @@
     {
       "url": "https://api-projeto-semana4.onrender.com/paletas",
       "description": "API de produção Render"
-    }
+    },
+    
     {
       "url": "http://localhost:3000/paletas",
       "description": "API de teste"
