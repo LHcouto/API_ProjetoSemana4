@@ -1,27 +1,21 @@
 {
-  "name": "projetosemana1",
+  "name": "api-elgeladon",
   "version": "1.0.0",
-  "description": "Projeto semana 1 modulo 3",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LHcouto/ProjetoSemana1.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LHcouto/ProjetoSemana1/issues"
-  },
-  "homepage": "https://github.com/LHcouto/ProjetoSemana1#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.3.0"
+    "mongoose": "^6.2.8",
+    "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-const ComputadorSchema = new mongoose.Schema({
-  nome: {
+const PaletaSchema = new mongoose.Schema({
+  sabor: {
     type: String,
     require: true,
   },
@@ -19,6 +19,6 @@ const ComputadorSchema = new mongoose.Schema({
   },
 });
 
-const Computador = mongoose.model('computadores', ComputadorSchema);
+const Paleta = mongoose.model('paletas', PaletaSchema);
 
-module.exports = Computador;
+module.exports = Paleta;
